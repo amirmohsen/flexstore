@@ -7,7 +7,7 @@ const argv = require('yargs').argv;
 loader({
 	root: __dirname,
 	dev: !!argv.dev,
-	library: 'FlexBuilder',
+	library: 'FlexStore',
 	sources: {
 		server: {
 			index: './src/server'
